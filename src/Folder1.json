@@ -1,0 +1,65 @@
+{
+    "id": "1",
+    "name": "root",
+    "type": "folder",
+    "children": [
+        {
+            "id": "2",
+            "name": "Documents",
+            "type": "folder",
+            "children": [
+                {
+                    "id": "3",
+                    "name": "Resume.pdf",
+                    "type": "file"
+                },
+                {
+                    "id": "4",
+                    "name": "Project",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "id": "5",
+                            "name": "ProjectPlan.docx",
+                            "type": "file"
+                        },
+                        {
+                            "id": "6",
+                            "name": "Requirements.xlsx",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Pictures",
+            "type": "folder",
+            "children": [
+                {
+                    "id": "8",
+                    "name": "Vacation",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "id": "9",
+                            "name": "Beach.png",
+                            "type": "file"
+                        },
+                        {
+                            "id": "10",
+                            "name": "Mountain.jpg",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "README.txt",
+            "type": "file"
+        }
+    ]
+}
