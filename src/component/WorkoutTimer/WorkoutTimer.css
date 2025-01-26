@@ -1,0 +1,42 @@
+.timer_border {
+    border: 1px solid gray;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darkkhaki;
+}
+
+.heading_timer {
+    display: flex;
+    position: absolute;
+    top: 0%;
+}
+
+.min_timer{
+    display: flex;
+    position: absolute;
+    top: 22%;
+}
+
+.button_block{
+    display: flex;
+    position: absolute;
+    top: 60%;
+}
+
+.button_block > button{
+    background: cornflowerblue;
+    outline: none;
+    border: 1px solid cornflowerblue;
+    padding: 5px;
+    font-size: 20px;
+    width: 75px;
+    margin-right: 10px;
+    cursor: pointer;
+}
