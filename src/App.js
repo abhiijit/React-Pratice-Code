@@ -13,10 +13,12 @@ import Usecallback from './component/Usecallback/Usecallback';
 import DebounceSearch from './component/DebounceSearch/DebounceSearch';
 import DebounceSearch2 from './component/DebounceSearch/DebounceSearch2';
 import Pagination2 from './component/Pagination2/Pagination2';
+import PaginationImage from './component/PaginationImage/PaginationImage';
 function App() {
   return (
     <div className="App">
-      <Pagination2/>
+      {/* <Pagination2/> */}
+      <PaginationImage />
       {/* <DebounceSearch /> */}
       {/* <DebounceSearch2 /> */}
       {/* <Usecallback/> */}
