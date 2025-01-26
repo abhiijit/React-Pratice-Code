@@ -9,14 +9,16 @@ import Weather from './component/Weather/Weather';
 import Folder from './component/Folder/Folder';
 import Folderfile from './Folder1.json'
 import PageResize from './component/PageResize/PageResize';
-// import Usecallback from './component/Usecallback/Usecallback';
-// import DebounceSearch from './component/DebounceSearch/DebounceSearch';
+import Usecallback from './component/Usecallback/Usecallback';
+import DebounceSearch from './component/DebounceSearch/DebounceSearch';
 import DebounceSearch2 from './component/DebounceSearch/DebounceSearch2';
+import Pagination2 from './component/Pagination2/Pagination2';
 function App() {
   return (
     <div className="App">
+      <Pagination2/>
       {/* <DebounceSearch /> */}
-      <DebounceSearch2 />
+      {/* <DebounceSearch2 /> */}
       {/* <Usecallback/> */}
       {/* <PageResize/> */}
       {/* <IncDecNum /> */}
