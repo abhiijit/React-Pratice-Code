@@ -14,11 +14,17 @@ import DebounceSearch from './component/DebounceSearch/DebounceSearch';
 import DebounceSearch2 from './component/DebounceSearch/DebounceSearch2';
 import Pagination2 from './component/Pagination2/Pagination2';
 import PaginationImage from './component/PaginationImage/PaginationImage';
+import WorkoutTimer from './component/WorkoutTimer/WorkoutTimer';
+import DragDrop from './component/DragAndDrop/DragDrop';
+import ObservableEle from './component/ObservableComp/ObservableEle';
 function App() {
   return (
     <div className="App">
+      <ObservableEle />
+      {/* <DragDrop/> */}
+      {/* <WorkoutTimer/> */}
       {/* <Pagination2/> */}
-      <PaginationImage />
+      {/* <PaginationImage /> */}
       {/* <DebounceSearch /> */}
       {/* <DebounceSearch2 /> */}
       {/* <Usecallback/> */}
