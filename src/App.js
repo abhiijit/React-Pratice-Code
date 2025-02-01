@@ -17,10 +17,12 @@ import PaginationImage from './component/PaginationImage/PaginationImage';
 import WorkoutTimer from './component/WorkoutTimer/WorkoutTimer';
 import DragDrop from './component/DragAndDrop/DragDrop';
 import ObservableEle from './component/ObservableComp/ObservableEle';
+import Timer2 from './component/WorkOutTimer_2/Timer2';
 function App() {
   return (
     <div className="App">
-      <ObservableEle />
+      <Timer2/>
+      {/* <ObservableEle /> */}
       {/* <DragDrop/> */}
       {/* <WorkoutTimer/> */}
       {/* <Pagination2/> */}
