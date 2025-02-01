@@ -18,10 +18,12 @@ import WorkoutTimer from './component/WorkoutTimer/WorkoutTimer';
 import DragDrop from './component/DragAndDrop/DragDrop';
 import ObservableEle from './component/ObservableComp/ObservableEle';
 import Timer2 from './component/WorkOutTimer_2/Timer2';
+import FormFillTbl from './component/FormFillTable/FormFillTbl'
 function App() {
   return (
     <div className="App">
-      <Timer2/>
+      <FormFillTbl/>
+      {/* <Timer2/> */}
       {/* <ObservableEle /> */}
       {/* <DragDrop/> */}
       {/* <WorkoutTimer/> */}
