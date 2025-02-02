@@ -1,0 +1,68 @@
+.pagination {
+    display: flex;
+    justify-content: center; /* Centers the pagination */
+    align-items: center;
+    gap: 10px; /* Space between buttons */
+    padding: 20px 0;
+  }
+  
+  .page-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .page-item:hover {
+    background-color: #007bff; /* Blue on hover */
+    color: #fff; /* White text */
+    transform: translateY(-2px); /* Subtle lift */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+  }
+  
+  .page-item.active {
+    background-color: #007bff; /* Blue for active button */
+    color: #fff; /* White text */
+    cursor: default;
+    pointer-events: none;
+  }
+  
+  .page-item:disabled {
+    background-color: #e0e0e0; /* Light gray for disabled button */
+    color: #a0a0a0; /* Dimmed text for disabled button */
+    cursor: not-allowed;
+  }
+
+  
+  
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 equal-width columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .image-grid img {
+    width: 100%; /* Adjusts to the column width */
+    max-width: 150px; /* Ensures images don’t get too large */
+    height: auto; /* Maintains the image aspect ratio */
+    border-radius: 8px; /* Slight rounding for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .image-grid img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
