@@ -19,10 +19,12 @@ import DragDrop from './component/DragAndDrop/DragDrop';
 import ObservableEle from './component/ObservableComp/ObservableEle';
 import Timer2 from './component/WorkOutTimer_2/Timer2';
 import FormFillTbl from './component/FormFillTable/FormFillTbl'
+import Product from './component/PaginationProductImage/Product'
 function App() {
   return (
     <div className="App">
-      <FormFillTbl/>
+      <Product/>
+      {/* <FormFillTbl/> */}
       {/* <Timer2/> */}
       {/* <ObservableEle /> */}
       {/* <DragDrop/> */}
