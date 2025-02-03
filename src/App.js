@@ -2,7 +2,7 @@ import './App.css';
 import Pagination from './component/Pagination/Pagination';
 import data from './Folder.json';
 import Toggle from './component/FolderFileToggle/Toggle';
-// import Timer from './component/Timer/Timer';
+import Timer from './component/Timer/Timer';
 import Todo from './component/Todo/Todo';
 import IncDecNum from './component/IncDecUserNum/IncDecNum';
 import Weather from './component/Weather/Weather';
@@ -20,10 +20,12 @@ import ObservableEle from './component/ObservableComp/ObservableEle';
 import Timer2 from './component/WorkOutTimer_2/Timer2';
 import FormFillTbl from './component/FormFillTable/FormFillTbl'
 import Product from './component/PaginationProductImage/Product'
+import TabFormComponent from './component/TabFormComponent/TabFormComponent'
 function App() {
   return (
     <div className="App">
-      <Product/>
+      <TabFormComponent/>
+      {/* <Product/> */}
       {/* <FormFillTbl/> */}
       {/* <Timer2/> */}
       {/* <ObservableEle /> */}
